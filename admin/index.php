@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 //koneksi ke database
-$koneksi = new mysqli("localhost","root","", "balinuansa_hotel");
+include_once('./koneksi.php');
 
 
 if (! isset($_SESSION['admin'])) 
